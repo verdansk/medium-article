@@ -43,15 +43,15 @@ a {
   color: grey;
   font-size: 14px;
   text-decoration: none;
-  padding: 2px 10px;
+  padding: 5px 10px;
 }
 
 a:hover {
-  background-color: darkgreen;
+  background-color: green;
   color: grey;
   font-size: 14px;
   text-decoration: underline;
-  padding: 2px 10px;
+  padding: 5px 10px;
 }
 
 .container {
