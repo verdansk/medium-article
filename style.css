@@ -1,6 +1,7 @@
 body {
   font-family: "lora", serif;
   font-size: 14px;
+  margin: 0px;
 }
 
 header {
@@ -17,6 +18,7 @@ h1  {
   font-size: 60px;
   padding-top: 100px;
   color: white;
+  margin: 0px;
 }
 
 h2 {
@@ -30,8 +32,9 @@ h3 {
   font-family: 'lora', serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 30px;
+  font-size: 1.8em;
   color: white;
+  padding: 0px 30px;
 }
 
 article {
@@ -44,25 +47,50 @@ a {
   font-size: 14px;
   text-decoration: none;
   padding: 5px 10px;
+  line-height: 30px;
 }
 
 a:hover {
   background-color: green;
-  color: grey;
+  color: lightgrey;
   font-size: 14px;
-  text-decoration: underline;
+  text-decoration: none;
   padding: 5px 10px;
 }
 
 .container {
-  width: 600px;
-  margin: 0 auto;
+  width: 800px;
+  margin: 50px auto;
 }
 
 /* Media Querie */
 
-@media(max-width: 600px) {
+@media(max-width: 820px) {
+  .container {
+    width: 600px;
+  }
+
+  h3 {
+    font-size: 1.7em;
+  }
+}
+
+@media(max-width: 610px) {
   .container {
     width: 450px;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 250px;
+  }
+
+  h3 {
+    font-size: 1.5em;
   }
 }
